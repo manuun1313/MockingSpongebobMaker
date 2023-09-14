@@ -1,0 +1,47 @@
+.meme-maker {
+    margin: 20px auto;
+    max-width: 90%; 
+    display: flex;
+    font-family: sans-serif;
+    justify-content: space-between; 
+}
+
+.meme-maker label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.inputs-container {
+    font-weight: bold;
+    flex-shrink: 0; 
+    padding: 100px;
+    box-sizing: border-box;
+    max-width: 300px;
+    
+}
+
+.canvas-container {
+    flex-shrink: 0; 
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 700px; 
+}
+
+#meme {
+    max-width: 700px; 
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+textarea {
+    width: 500px;
+    height: 100px;
+}
